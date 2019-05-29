@@ -23,20 +23,16 @@ import android.graphics.Matrix
 import android.graphics.Rect
 import android.graphics.RectF
 import android.net.Uri
-import android.os.ParcelFileDescriptor
+import com.raphta.drvma.model.ml.FaceNet
 
 
-import com.raphta.drvma.model.FaceNet
-import com.raphta.drvma.model.LibSVM
-import com.raphta.drvma.model.MTCNN
+import com.raphta.drvma.model.ml.LibSVM
+import com.raphta.drvma.model.ml.MTCNN
+
 import com.raphta.drvma.utils.FileUtils
 
-import java.io.FileDescriptor
-import java.nio.FloatBuffer
 import java.util.ArrayList
 import java.util.LinkedList
-
-import androidx.core.util.Pair
 
 /**
  * Generic interface for interacting with different recognition engines.

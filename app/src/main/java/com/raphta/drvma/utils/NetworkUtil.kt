@@ -2,7 +2,6 @@ package com.raphta.drvma.utils
 
 import com.google.gson.GsonBuilder
 import com.raphta.drvma.RequestService
-import java.util.concurrent.TimeUnit
 
 import io.reactivex.disposables.CompositeDisposable
 import okhttp3.OkHttpClient

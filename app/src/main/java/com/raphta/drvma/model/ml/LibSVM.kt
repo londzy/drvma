@@ -1,4 +1,4 @@
-package com.raphta.drvma.model
+package com.raphta.drvma.model.ml
 
 import android.text.TextUtils
 import android.util.Log
@@ -78,7 +78,7 @@ class LibSVM private constructor() {
     companion object {
 
         init {
-            System.loadLibrary("jnilibsvm")
+            System.loadLibrary("")
         }
 
         // singleton for the easy access

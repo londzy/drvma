@@ -1,4 +1,4 @@
-package com.raphta.drvma.model;
+package com.raphta.drvma.model.ml;
 
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
@@ -158,4 +158,5 @@ public class FaceNet {
         inferenceInterface.close();
     }
 }
+
 
